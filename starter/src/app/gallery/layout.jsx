@@ -1,11 +1,14 @@
 import React from 'react'
-
 export const metadata = {
-    title: 'Marvin Contact Page'
-  }
-  
+    title: 'Illumine Gallery'
+}
+
 export default function layout({children}) {
   return (
-    <div>{children}</div>
+    <div>
+      {children}
+    </div>
   )
 }
+
+

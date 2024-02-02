@@ -1,4 +1,4 @@
-import Main from "./components/Main"
+import Main from "./home/Main"
 
 export default function Home() {
   const greetMe = 'Hello Everybody '
