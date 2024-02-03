@@ -11,6 +11,7 @@ export default function Main() {
         <h2>Good morning, {greetMe}</h2>
         <h1>fundamentals of React.JS by <br /> {Illumine}</h1>
         </div>
+        
        
         <div>
             <Image src='/imgs/illumineLogo.png' alt="Illumine Logo" width={600} height={600}/>
