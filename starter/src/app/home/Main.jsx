@@ -1,15 +1,18 @@
 import Image from "next/image"
 
-const greetMe = 'Welcome to '
+const greetMe = 'Marvin'
 const Illumine = 'Illumine Business Hub'
 
 export default function Main() {
   return (
-    <div className="grid grid-cols-3 mt-10">
+    <div className="grid grid-cols-3 mt-5">
 
 <div  className="flex flex-col items-center justify-center text-3xl text-center text-white bg-red-900 m-7">
         <h2>Good morning, {greetMe}</h2>
+        <div className="text-black">
         <h1>fundamentals of React.JS by <br /> {Illumine}</h1>
+          
+        </div>
         </div>
         
        

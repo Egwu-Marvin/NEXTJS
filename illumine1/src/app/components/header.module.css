@@ -1,0 +1,8 @@
+.header{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    gap: 30px;
+    padding-left: 25px;
+    text-transform: capitalize;
+
+}
