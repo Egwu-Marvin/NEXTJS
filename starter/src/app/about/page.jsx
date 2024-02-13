@@ -9,7 +9,9 @@ export default function About() {
 
       <div className='flex justify-center border pt-7'>
             
-            <video src = '/vids/illumineLogo.cur.mp4' alt = "Logo" width={700} height={700} />
+            <video src = '/vids/illumineLogo.cur.mp4' alt = "Logo" width={700} height={700} autoPlay loop/>
+
+            
         
             {/* <Image src='/imgs/illumineHome.jpg' alt="Illumine Front View1" width={600} height={500}/> */}
         </div>

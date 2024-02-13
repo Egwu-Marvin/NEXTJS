@@ -1,12 +1,12 @@
-// impo
-import { Main } from "next/document";
-// import CompleteHeader from "./components/CompleteHeader";
+// import error from '@/error'
+import React from 'react'
 
-export default function Home() {
+
+export default function Homepage() {
+  // throw new error ('Error in Homepage')
   return (
     <div>
-      {/* <CompleteHeader/> */}
-      <Main />
+      <h1>Welcome to Ilumine</h1>
     </div>
   )
 }

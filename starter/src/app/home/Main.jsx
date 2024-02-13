@@ -7,17 +7,17 @@ export default function Main() {
   return (
     <div className="grid grid-cols-3 mt-5">
 
-<div  className="flex flex-col items-center justify-center text-3xl text-center text-white bg-red-900 m-7">
-        <h2>Good morning, {greetMe}</h2>
-        <div className="text-black">
-        <h1>fundamentals of React.JS by <br /> {Illumine}</h1>
+<div  className="flex flex-col items-center justify-center m-3 text-3xl text-center text-white bg-red-900">
+            <h2>Good morning, {greetMe}</h2>
+            <div className="text-white">
+            <h1>fundamentals of React.JS by <br /> {Illumine}</h1>
           
         </div>
         </div>
         
        
         <div>
-            <Image src='/imgs/illumineLogo.png' alt="Illumine Logo" width={600} height={600}/>
+            <Image src='/imgs/illumineLogo.png' alt="Illumine Logo" width={900} height={100}/>
         </div>
 
         <div>
