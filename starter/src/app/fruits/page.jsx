@@ -56,7 +56,7 @@ export const fruits = [
     type: "Melons",
     price: 1.99, 
     visual: <Image src = {`/imgs/watermelon.jpeg`} alt = "watermelon" 
-    width =  {250} height = {300} /> },
+    width =  {250} height = {200} /> },
 
 
     { name: "figs", 
